@@ -56,7 +56,6 @@ public class DataTypeInDepth {
 //
 //            if(i%80 == 0) System.out.println();
 //        }
-
         for (int i = 0; i < 155063; i++) {
             if(Character.isDefined(i)){
                 System.out.print(Character.toChars(i));
