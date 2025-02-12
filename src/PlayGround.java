@@ -18,7 +18,6 @@ public class PlayGround {
         // Main Question
         char ch = sc.next().charAt(0);
         String a = sc.nextLine();
-
         System.out.println(ch);
         System.out.println(a);
     }
