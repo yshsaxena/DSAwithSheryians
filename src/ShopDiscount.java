@@ -11,7 +11,13 @@ public class ShopDiscount {
             System.out.println(price);
         }
         else if(price >= 5000 && price < 7000){
-            System.out.println(price - (0.1 * price));
+            System.out.println(price - price/20);
+        }
+        else if(price >= 7000 && price < 9000){
+            System.out.println(price - price/10);
+        }
+        else{
+            System.out.println(price - price/5);
         }
     }
 }
